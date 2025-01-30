@@ -39,7 +39,7 @@ Le programme offre les fonctionnalités suivantes :
 1. Clonez ce dépôt sur votre machine locale :
 
     ```bash
-    git clone https://github.com/username/bank-kata.git
+    git clone https://github.com/khalidhaddou/Bank-Kata.git
     ```
 
 2. Accédez au répertoire du projet :
