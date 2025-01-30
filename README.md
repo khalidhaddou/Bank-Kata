@@ -17,7 +17,7 @@ bank-kata/
 │   ├── Transaction.java            # Représentation d'une transaction
 │   ├── Main.java                   # Application principale pour interagir avec le compte
 │   ├── AccountTest.java            # Tests unitaires pour le compte bancaire
-│── pom.xml                         # Dépendances Maven pour le projet
+              
 ```
 
 ## Fonctionnalités
@@ -54,28 +54,6 @@ Le programme offre les fonctionnalités suivantes :
     mvn install
     ```
 
-## Utilisation
-
-1. **Exécuter l'application** :
-
-    Après avoir installé les dépendances, vous pouvez exécuter le programme en utilisant Maven :
-
-    ```bash
-    mvn exec:java
-    ```
-
-    Cela lancera l'application et vous permettra d'interagir avec le compte bancaire via le terminal.
-
-2. **Exécuter les tests unitaires** :
-
-    Pour exécuter les tests unitaires avec JUnit, utilisez la commande suivante :
-
-    ```bash
-    mvn test
-    ```
-
-    Cela exécutera les tests et affichera les résultats dans le terminal.
-
 ## Tests
 
 Les tests unitaires pour les fonctionnalités principales sont définis dans le fichier **`AccountTest.java`**. Vous pouvez tester les opérations suivantes :
@@ -86,10 +64,4 @@ Les tests unitaires pour les fonctionnalités principales sont définis dans le 
 
 Les tests utilisent **JUnit 5** pour vérifier que le comportement du système respecte les attentes.
 
-## Contribution
 
-Si vous souhaitez contribuer à ce projet, veuillez créer une branche, faire vos modifications, et soumettre une **pull request**.
-
-## Licence
-
-Ce projet est sous licence MIT.
