@@ -48,11 +48,7 @@ Le programme offre les fonctionnalités suivantes :
     cd bank-kata
     ```
 
-3. Installez les dépendances avec Maven :
 
-    ```bash
-    mvn install
-    ```
 
 ## Tests
 
